@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class pattern11 {
     public static void main(String[] args) {
         Scanner s=new Scanner(System.in);
@@ -13,7 +12,7 @@ public class pattern11 {
             while(t!=2*i-1)
             {
                 System.out.print("*");
-                ++t;
+                ++t ;
             }
             System.out.println();
         }
@@ -29,8 +28,5 @@ public class pattern11 {
             }
             System.out.println();
         }
-
-
-
     }
 }
